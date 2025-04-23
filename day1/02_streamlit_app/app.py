@@ -51,6 +51,16 @@ st.write("Gemmaモデルを使用したチャットボットです。回答に�
 st.markdown("---")
 
 # --- サイドバー ---
+st.markdown("""
+    <style>
+    section[data-testid="stSidebar"] h1 {
+        font-size: 24px;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.sidebar.title("ナビゲーション")
 # セッション状態を使用して選択ページを保持
 if 'page' not in st.session_state:
@@ -78,4 +88,4 @@ elif st.session_state.page == "サンプルデータ管理":
 
 # --- フッターなど（任意） ---
 st.sidebar.markdown("---")
-st.sidebar.info("開発者: [Your Name]")
+st.sidebar.info("開発者: Kazuki")
