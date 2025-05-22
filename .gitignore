@@ -12,3 +12,5 @@ __pycache__/
 
 # ログファイル
 *.log
+
+.python-version
