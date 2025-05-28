@@ -1,0 +1,6 @@
+artifact_location: file:///home/kazuki/lecture-ai-engineering/day5/%E6%BC%94%E7%BF%921/mlruns/760934959486844627
+creation_time: 1748405004411
+experiment_id: '760934959486844627'
+last_update_time: 1748405004411
+lifecycle_stage: active
+name: titanic-survival-prediction
