@@ -22,7 +22,9 @@ class DataLoader:
             return pd.read_csv(path)
         else:
             # ローカルのファイル
-            local_path = "data/Titanic.csv"
+            local_path = (
+                "/home/kazuki/lecture-ai-engineering/day5/演習2/data/Titanic.csv"
+            )
             if os.path.exists(local_path):
                 return pd.read_csv(local_path)
 
@@ -237,6 +239,9 @@ def test_model_performance():
 
     # 評価
     metrics = ModelTester.evaluate_model(model, X_test, y_test)
+
+    print(f"Accuracy: {metrics['accuracy']}")
+    print(f"Inference time: {metrics['inference_time']}")
 
     # ベースラインとの比較
     assert ModelTester.compare_with_baseline(
