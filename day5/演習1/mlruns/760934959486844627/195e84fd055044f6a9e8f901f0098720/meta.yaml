@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kazuki/lecture-ai-engineering/day5/%E6%BC%94%E7%BF%921/mlruns/760934959486844627/195e84fd055044f6a9e8f901f0098720/artifacts
+end_time: 1748405007435
+entry_point_name: ''
+experiment_id: '760934959486844627'
+lifecycle_stage: active
+run_id: 195e84fd055044f6a9e8f901f0098720
+run_name: tasteful-lynx-874
+run_uuid: 195e84fd055044f6a9e8f901f0098720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748405004581
+status: 3
+tags: []
+user_id: kazuki
